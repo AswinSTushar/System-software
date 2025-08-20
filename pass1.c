@@ -74,7 +74,7 @@ void pass1 (FILE* inter, char opcode[], char label[], char op[]) {
 int main() {
 	FILE* src = fopen("input.txt", "r");
 	FILE* optab = fopen("optab.txt", "r");
-	FILE* inter = fopen("intermediate.sic", "w");
+	FILE* inter = fopen("intermediate.txt", "w");
 	FILE* symtab = fopen("symtab.txt", "w");
 
 	if (!src || !optab || !inter || !symtab) {
